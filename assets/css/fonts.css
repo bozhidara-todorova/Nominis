@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'montserratextra_bold';
+    src: url('fonts/montserrat-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'google_sansbold';
+    src: url('fonts/googlesans-bold-webfont.woff2') format('woff2'),
+         url('fonts/googlesans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'google_sansmedium';
+    src: url('fonts/googlesans-medium-webfont.woff2') format('woff2'),
+         url('fonts/googlesans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'google_sansregular';
+    src: url('fonts/googlesans-regular-webfont.woff2') format('woff2'),
+         url('fonts/googlesans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

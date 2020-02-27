@@ -1,0 +1,341 @@
+/********************************/
+/*          Media Queries       */
+/********************************/
+
+@media (min-width: 992), (max-width: 1200px) {
+	#usage .box {
+		width: 148px;
+		height: 148px;
+	}
+}
+
+@media (min-width: 992px) {
+	.carousel-control-prev span,
+	.carousel-control-next span {
+		display: none;
+	}
+}
+
+@media (max-width: 992px) {
+	#usage .box {
+		width: 185px;
+		height: 185px;
+		margin-bottom: 70px;
+	}
+
+	.carousel-inner .carousel-item>div {
+	  display: none;
+	}
+
+	.carousel-inner .carousel-item>div:first-child {
+	  display: block;
+	}
+
+	.carousel-inner .carousel-item-right.active,
+	.carousel-inner .carousel-item-next {
+	  transform: translateX(100%);
+	}
+
+	.carousel-inner .carousel-item-left.active,
+	.carousel-inner .carousel-item-prev {
+	  transform: translateX(-100%);
+	}
+
+	#contacts {
+		padding-bottom: 80px;
+	}
+
+	#contacts .submit_btn {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		text-align: center;
+		float: left;
+	}
+}
+
+@media(max-width: 790px) {
+	#home h1 {
+		font-size: 60px;
+	}
+
+	#features .info .row {
+		padding-top: 40px;
+		padding-bottom: 30px;
+	}
+	
+	#features .info h3 {
+		font-size: 36px;
+	}
+
+	#contacts {
+		padding-bottom: 50px;
+	}
+
+	#contacts h5 {
+		font-size: 34px;
+	}
+}
+
+@media (max-width: 768px) {
+	#features .info .row:not(:last-child) {
+		border-bottom: none;
+	}
+	
+	#contacts form {
+		width: 100%;
+	}
+
+	#contacts label {
+		font-size: 19px;
+	}
+
+	#contacts input:not(.submit_btn) {
+		padding: 14px;
+	}
+
+	footer h5:last-child {
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 663px) {
+	#home h1 {
+		font-size: 50px;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+	#features .img_feature img {
+		width: 80%;
+		display: block;
+	}
+}
+
+@media (max-width: 576px) {
+	h2 {
+		font-size: 30px;
+	}
+
+	h2:before,
+	#home:after,
+	#process:before,
+	#usage:before,
+	#usage:after {
+		display: none;
+	}
+
+	#home h1 {
+		font-size: 45px;
+	}
+
+	#features .info .row {
+		padding-top: 35px;
+		padding-bottom: 20px;
+	}
+
+	#features .info h3 {
+		font-size: 26px;
+	}
+
+	#features .img_feature img {
+		width: 50%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	#features .info h5:after {
+		width: 20%;
+	}
+
+	#contacts h5 {
+		font-size: 29px;
+	}
+
+	footer .col-12 {
+		text-align: center;
+	}
+
+	footer h5 {
+		margin-top: 20px;
+	}
+
+	footer ul {
+		display: inline-block;
+	}
+}
+
+@media (max-width: 551px) {
+	#home .buttons a {
+		width: 168px;
+		height: 50px;
+		padding: 15px 29px;
+		font-size: 14px;
+	}
+
+	#contacts input:not(.submit_btn) {
+		padding: 12px;
+	}
+
+	#contacts .submit_btn {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 410px) {
+	h2 {
+		margin-top: 40px;
+	}
+
+	.carousel-control-prev span,
+	.carousel-control-next span {
+		font-size: 32px;
+	}
+}
+
+@media (max-width: 381px) {
+	h2 {
+		margin-top: 40px;
+	}
+
+	#contacts label {
+		font-size: 17px;
+	}
+
+	#contacts input:not(.submit_btn) {
+		padding: 12px;
+	}
+
+	#contacts .submit_btn {
+		padding-left: 0;
+		padding-right: 0;
+		text-align: center;
+	}
+}
+
+@media (max-width: 367px) {
+	#home h1 {
+		font-size: 30px;
+	}
+
+	#process p {
+		font-size: 14px;
+	}
+
+	#features .img_feature {
+		display: none;
+	}
+
+	#features .info h3 {
+		font-size: 22px;
+	}
+
+	#features .info p {
+		font-size: 14px;
+	}
+
+	#features .info h5:after {
+		width: 35%;
+	}
+
+	#usage .reasons {
+		padding-top: 10px;
+		padding-bottom: 30px;
+	}
+
+	#usage .box {
+		width: 150px;
+		height: 150px;
+	}
+	
+	#usage p {
+		width: 100%;
+	}
+
+	#contacts {
+		padding-bottom: 30px;
+	}
+
+	#contacts h5 {
+		font-size: 25px;
+	}
+
+	#contacts input:not(.submit_btn) {
+		padding: 10px;
+	}
+
+	#contacts p {
+		font-size: 17px;
+	}
+	
+	footer {
+		padding: 30px 0;
+	}
+}
+
+@media (max-width: 292px) {
+	.nav {
+		width: 100%;
+		right: -100%;
+	}
+
+	.carousel-control-prev span,
+	.carousel-control-next span {
+		font-size: 24px;
+	}
+
+	#usage .box {
+		width: 120px;
+		height: 120px;
+	}
+
+	#usage .box img {
+		width: 50%;
+	}
+}
+
+@media (max-width: 245px) {
+	.nav {
+		font-size: 18px;
+	}
+
+	#home h1 {
+		font-size: 25px;
+		text-align: center;
+	}
+
+	#home .buttons a:first-child {
+	    margin-right: 0;
+	}
+
+	#home .buttons a {
+		width: 100%;
+		height: 46px;
+		font-size: 14px;
+		text-align: center;
+	}
+
+	#features .info h3 {
+		font-size: 20px;
+	}
+
+	#usage p {
+		font-size: 15px;
+	}
+
+	#contacts h5 {
+		font-size: 22px;
+	}
+
+	#contacts label {
+		font-size: 16px;
+	}
+
+	#contacts input:not(.submit_btn) {
+		padding: 8px;
+	}
+
+	#contacts .submit_btn {
+		font-size: 14px;
+	}
+}
